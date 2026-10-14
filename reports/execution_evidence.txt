@@ -1,0 +1,7 @@
+Execution evidence — 2026-10-14
+Command: pytest -v
+Target: https://compassuol.serverest.dev
+Collection: 13 tests collected
+Outcome: 11 failed, 2 errors before assertions could validate the API contract.
+Root cause observed: DNS resolution failure for compassuol.serverest.dev (Temporary failure in name resolution).
+Interpretation: this is an environment/network limitation, not evidence that the API behavior is incorrect. Re-run with internet access and preserve the actual pytest/JUnit report for final acceptance.
