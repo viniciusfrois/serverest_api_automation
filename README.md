@@ -56,10 +56,9 @@ A IA foi usada como apoio à estruturação da suíte, criação de fixtures, su
 6. Revisão crítica: status alternativos em alguns testes são tolerância provisória; devem ser fixados ao contrato documentado no Swagger antes da entrega final.
 7. Execução neste ambiente de preparação: 13 testes foram coletados, mas a execução contra a API não pôde ser validada porque o ambiente de execução não conseguiu resolver o DNS de `compassuol.serverest.dev` (`Temporary failure in name resolution`). Portanto, não há evidência de aprovação funcional contra a API real.
 
-## Publicação do repositório
-
-
-
+## Repositório e artefato
+Repositório público informado: https://github.com/viniciusfrois/serverest_api_automation. O repositório contém README,
+testes, conftest.py, pytest.ini, requirements.txt, .env.example e pasta reports.
 ## Segurança e limitações
 
 - Use apenas dados temporários e identificáveis de teste.
